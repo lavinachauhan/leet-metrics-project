@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="leetMetrics.css">
+    <title>LeetMetric</title>
+</head>
+<!-- https://cors-anywhere.herokuapp.com/corsdemo activate this before running the code-->
+<body>
+    <div class="mainContainer">
+        <h1>LeetMetrics</h1>
+        <div class="user-container">
+            <p>Enter your username below:</p>
+            <div class="user-input-container">
+                <input type="text" id = "user-input" name = "username" placeholder = "Enter your username">
+                <input type="button" id = "search" name = "search" value = "Search">
+            </div>
+        </div>
+         
+        <div class="stats-container">
+
+            <div class="progress">
+                <div class="progress-item circle">
+                    <div class="easy">
+                        <span id = "easy-label"></span>
+                        <p>Easy</p>
+                    </div>
+                </div>
+
+                <div class="progress-item circle">
+                    <div class="medium">
+                        <span id = "medium-label"></span>
+                        <p>Medium</p>
+                    </div>
+                </div>
+
+                <div class="progress-item circle">
+                    <div class="hard">
+                        <span id = "hard-label"></span>
+                        <p>Hard</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-card">
+                <!-- directly populate card here from javascript code -->
+            </div> 
+        </div>
+
+    </div>
+    <script src = "leetMetrics.js"></script>
+</body>
+</html>
